@@ -10,6 +10,7 @@ import Home from "./pages/Home"
 import EditTodo from "./pages/EditTodo"
 import LoginForm from "./pages/LoginForm";
 import { useContext } from "react";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function Layout() {
   const navigate = useNavigate()
