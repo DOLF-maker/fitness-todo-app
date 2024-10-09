@@ -4,10 +4,10 @@ import useLocalStorage from "use-local-storage"
 import { TodoContext } from "./contexts/TodoContext"
 import { AuthContext } from './contexts/AuthContext';
 import RequireAuth from "./contexts/RequireAuth";
-import AddTodo from "./pages/AddTodo"
+import AddTodo from "./pages/AddToDo"
 import ErrorPage from "./pages/ErrorPage"
 import Home from "./pages/Home"
-import EditTodo from "./pages/EditTodo"
+import EditTodo from "./pages/EditToDo"
 import LoginForm from "./pages/LoginForm";
 import { useContext } from "react";
 // import "bootstrap/dist/css/bootstrap.min.css"
